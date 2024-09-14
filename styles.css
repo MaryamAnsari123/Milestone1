@@ -87,9 +87,11 @@ button:hover {
 
 @media only screen and (max-width: 768px) {
     .resume-container {
-        flex-direction: column;
         width:100px;
-        padding-right:1.5rem;
+        padding: 20px;
+        display: flex;
+        flex-ditection: column;
+        align-items: center;
         justify-content: center;
     }
 
@@ -103,20 +105,7 @@ button:hover {
         height: auto;
     }
 
-    h1 {
-        font-size: 18px;
-    }
-
-    h3 {
-        font-size: 16px;
-    }
-
-    p , ul , li {
-        font-size: 14px;
-    }
-
-    button {
-        font-size: 12px;
-        padding: 8px;
-    }
+   body {
+       font-size: 1.2rem;
 }
+ }
