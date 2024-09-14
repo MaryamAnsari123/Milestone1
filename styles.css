@@ -85,10 +85,9 @@ button:hover {
 }
 
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
     .resume-container {
         width:100%;
-        padding: 20px;
         display: flex;
         flex-ditection: column;
     }
@@ -99,11 +98,11 @@ button:hover {
     }
 
    .left-section {
-     width: 35%;
+     width: 30%;
 }
 
    .right-section {
-      width: 65%;
+      width: 70%;
 }
    body {
        font-size: 1.2rem;
