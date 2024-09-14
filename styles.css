@@ -84,20 +84,16 @@ button:hover {
 
 @media only screen and (max-width: 600px) {
     .resume-container {
-        /* flex-direction: column; */
-        width: 100%;
+        flex-direction: column;
         padding: 10px;
-        font-size: 14px;
     }
 
     .left-section , .right-section {
         width: 100%;
-        padding: 15px;
     }
 
     .profile-pic {
         width: 100px;
-        height: 100px;
     }
 
     h1 {
@@ -112,8 +108,9 @@ button:hover {
         font-size: 14px;
     }
 
-    button {
-        font-size: 12px;
-        padding: 8px;
+    button , a {
+        font-size: 18px;
+        padding: 15px;
+        width: 100%;
     }
 }
