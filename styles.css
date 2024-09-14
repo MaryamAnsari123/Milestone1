@@ -91,8 +91,6 @@ button:hover {
         padding: 20px;
         display: flex;
         flex-ditection: column;
-        align-items: center;
-        justify-content: center;
     }
 
     .profile-pic {
@@ -100,6 +98,13 @@ button:hover {
         height: auto;
     }
 
+   .left-section {
+     width: 35%;
+}
+
+   .right-section {
+      width: 65%;
+}
    body {
        font-size: 1.2rem;
 }
