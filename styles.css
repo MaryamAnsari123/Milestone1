@@ -87,17 +87,12 @@ button:hover {
 
 @media only screen and (max-width: 768px) {
     .resume-container {
-        width:100px;
+        width:100%;
         padding: 20px;
         display: flex;
         flex-ditection: column;
         align-items: center;
         justify-content: center;
-    }
-
-    .left-section , .right-section {
-        width: 100%;
-        padding: 15px;
     }
 
     .profile-pic {
