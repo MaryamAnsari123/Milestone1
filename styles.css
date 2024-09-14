@@ -89,13 +89,8 @@ button:hover {
         padding-right: 1.5rem;
     }
 
-    .left-section {
-        width: 25%;
-        padding: 15px;
-    }
-
-    .right-section {
-        width: 75%;
+    .left-section , .right-section {
+        width: 100%;
         padding: 15px;
     }
 
